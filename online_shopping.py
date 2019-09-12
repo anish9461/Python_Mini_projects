@@ -15,6 +15,14 @@ class ElectronicProducts:
     def displayProduct(self):
         print(" "+ self.productName+"   ",self.productCost)
 
+class HomeDecor:
+    def __init__(self, productName, productCost):
+        self.productName = productName
+        self.productCost = productCost
+    
+    def displayProduct(self):
+        print(" "+ self.productName+"   ",self.productCost)
+
 def getProductValue(dictproducts,product):
     return dictproducts[product].productCost        
 
@@ -33,6 +41,7 @@ def main():
     microwave = HomeAppliances("microwave",500)
     heater = HomeAppliances("heater",300)
 
+    
     listofProducts = [laptop,phone,watch,television,microwave,heater]
 
     #Dictionary Comprehension from the list
