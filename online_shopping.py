@@ -82,8 +82,7 @@ def main():
                 print("Total amount in the cart : ",totalinCart)
                 itemsInTheCart.append(dictionaryOfUpdatedProducts[int(index)])
                 print("Items in the cart : ",itemsInTheCart)
-                print(">--------------------------------------------<")
-                
+                print(">--------------------------------------------<")            
             else:
                 print(">===============< Cart empty. Checking Out >===============<")
                 break
